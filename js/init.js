@@ -8,6 +8,7 @@
     $('.carousel').carousel();
     $(".button-collapse").sideNav('show');
     $('.collapsible').collapsible();
+    $(".button-collapse").sideNav();
   });
     // end of document ready
 })(jQuery); // end of jQuery name space
