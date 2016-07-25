@@ -6,8 +6,9 @@
 		<link rel="shortcut icon" href="" type="image/x-icon"/>
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
 		<title>Basilides de Godoy</title>
+		<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
 		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-		<link type="text/css" rel="stylesheet" href="css/extras.css" media="screen,projection"/>
+		<link type="text/css" rel="stylesheet" href="css/implements.css" media="screen,projection"/>
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	</head>
 	
@@ -20,25 +21,6 @@
         <script type="text/javascript" src="js/init.js"></script> <!-- Arquivo de ativação do JS -->
 
 		<!-- NAVBAR -->
-
-		<ul id="drop-cursos" class="dropdown-content ">
-			<li><a class="grey-text text-darken-3" href="ensino_medio.html">Ensino Médio</a></li>
-			<li><a class="grey-text text-darken-3" href="info.html">Informática</a></li>
-			<li><a class="grey-text text-darken-3" href="adm.html">Administração</a></li>
-			<li><a class="grey-text text-darken-3" href="mecanica.html">Mecânica</a></li>
-			<li><a class="grey-text text-darken-3" href="mecatronica.html">Mecatrônica</a></li>
-			<li><a class="grey-text text-darken-3" href="logistica.html">Logística</a></li>
-			<li><a class="grey-text text-darken-3" href="eletrotecnica.html">Eletrotécnica</a></li>
-		</ul>
-		<ul id="drop-cursos-mob" class="dropdown-content">
-			<li><a class="grey-text text-darken-3" href="ensino_medio.html">Ensino Médio</a></li>
-			<li><a class="grey-text text-darken-3" href="info.html">Informática</a></li>
-			<li><a class="grey-text text-darken-3" href="adm.html">Administração</a></li>
-			<li><a class="grey-text text-darken-3" href="mecanica.html">Mecânica</a></li>
-			<li><a class="grey-text text-darken-3" href="mecatronica.html">Mecatrônica</a></li>
-			<li><a class="grey-text text-darken-3" href="logistica.html">Logística</a></li>
-			<li><a class="grey-text text-darken-3" href="eletrotecnica.html">Eletrotécnica</a></li>
-		</ul>
 
 		<ul id="drop-secretaria" class="dropdown-content">
 			<li><a class="grey-text text-darken-3" href="#!">um</a></li>
@@ -61,7 +43,6 @@
 			<ul class="right hide-on-med-and-down">
 				<li><a href="index.html">Home</a></li>
 				<li><a href="vestibulinho.html">Vestibulinho</a></li>
-				<li><a class="dropdown-button" href="cursos.html" data-activates="drop-cursos">Cursos <i class="material-icons right">arrow_drop_down</i></a></li>
 				<li><a class="dropdown-button" href="secretaria.html" data-activates="drop-secretaria">Secretaria <i class="material-icons right">arrow_drop_down</i></a></li>
 				<li><a href="alunos.html">Alunos</a></li>
 				<li><a href="noticias.html">Noticias</a></li>
@@ -72,7 +53,6 @@
 				<li><a class="btn yellow accent-3 grey-text text-darken-4" href="sistema.html">Sistema</a></li>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="vestibulinho.html">Vestibulinho</a></li>
-				<li><a class="dropdown-button" href="cursos.html" data-activates="drop-cursos-mob">Cursos <i class="material-icons right">arrow_drop_down</i></a></li>
 				<li><a class="dropdown-button" href="secretaria.html" data-activates="drop-secretaria-mob">Secretaria <i class="material-icons right">arrow_drop_down</i></a></li>
 				<li><a href="alunos.html">Alunos</a></li>
 				<li><a href="noticias.html">Noticias</a></li>
@@ -84,6 +64,59 @@
 
 		<!-- fim NAVBAR -->
 
+		<!-- FOOTER -->
+		<footer class="page-footer indigo darken-3">
+          <div class="container">
+            <div class="row">
+            	<div class="col l4 s6">
+            		<h5 class="grey-text text-lighten-4">Cursos</h5>
+					<ul>
+						<li><a class="grey-text text-lighten-3" href="info.html">Informatica</a></li>
+						<li><a class="grey-text text-lighten-3" href="adm.html">Administração</a></li>
+						<li><a class="grey-text text-lighten-3" href="mecatronica.html">Mecatronica</a></li>
+						<li><a class="grey-text text-lighten-3" href="mecanica.html">Mecanica</a></li>
+						<li><a class="grey-text text-lighten-3" href="eletrotecnica.html">Eletrotécnia</a></li>
+						<li><a class="grey-text text-lighten-3" href="logistica.html">Logistica</a></li>
+						<li><a class="grey-text text-lighten-3" href="ensino_medio.html">Ensino Médio</a></li>
+					</ul>
+				</div>
+				<div class="col l4 s6">
+            		<h5 class="grey-text text-lighten-4">LINKS</h5>
+					<ul>
+						<li><a class="grey-text text-lighten-3" href="info.html">LINK</a></li>
+						<li><a class="grey-text text-lighten-3" href="adm.html">LINK</a></li>
+						<li><a class="grey-text text-lighten-3" href="mecatronica.html">LINK</a></li>
+					</ul>
+					
+					<h5 class="grey-text text-lighten-4">LINKS 2</h5>
+					<ul>
+						<li><a class="grey-text text-lighten-3" href="info.html">LINK</a></li>
+						<li><a class="grey-text text-lighten-3" href="adm.html">LINK</a></li>
+						<li><a class="grey-text text-lighten-3" href="mecatronica.html">LINK</a></li>
+					</ul>
+				</div>
+				<div class="col l4 s12">
+					<h5 class="grey-text text-lighten-4">Contato</h5>
+						<p class="grey-text text-lighten-3">
+							(11) 3834-4111 
+							</br> (11) 3834-4780
+							</br> secretaria@basilides.com.br 
+							<blockquote><a class="grey-text text-lighten-3" href="professores.html"> Email dos Professores</a></blockquote>
+							</br>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14633.287262189586!2d-46.727858!3d-23.520925!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x671c9325c275132e!2sETEC+Prof.+Basilides+de+Godoy!5e0!3m2!1spt-BR!2sbr!4v1469456480860" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</p>
+				</div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2016 Basilides de Godoy 
+            <a class="grey-text text-lighten-4 right" href="#!">Mais links</a>
+            </div>
+          </div>
+        </footer>
+		<!--fim FOOTER -->
+		
 	</body>
 	
 </html>
