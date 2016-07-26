@@ -1,3 +1,4 @@
+/* BLOCKQUOTE ANIMATION */
 blockquote {
     margin: 10px 0;
     padding-left: 1.5rem;
@@ -12,3 +13,27 @@ blockquote:hover{
     -moz-transition:  1s;
     transition:  1s;
     padding-left: 0.5rem;
+}
+
+/* ITEM SLIDER COLOR */
+.slider .indicators .indicator-item.active {
+  background-color: #304ffe;
+}
+
+/* TEXT SHADOWS */
+
+.text-shadow-1{
+  text-shadow: 0 2px 5px  rgba(0, 0, 0, 0.16), 0 2px 10px  rgba(0, 0, 0, 0.12);
+}
+
+.text-shadow-1-half{
+  text-shadow: 0 4px 7px  rgba(0, 0, 0, 0.18), 0 4px 15px  rgba(0, 0, 0, 0.15);
+}
+
+.text-shadow-2 {
+  text-shadow: 0 6px 9px  rgba(0, 0, 0, 0.2), 0 6px 20px  rgba(0, 0, 0, 0.19);
+}
+
+.text-shadow-3 {
+  text-shadow: 0 8px 13px  rgba(0, 0, 0, 0.24), 0 17px 50px  rgba(0, 0, 0, 0.19);
+}
