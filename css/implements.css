@@ -90,3 +90,11 @@ blockquote:hover{
     font-weight: normal;
     color: rgba(0, 0, 0, 0.87);
 }
+
+/* ICONES DE CURSOS */
+
+.icon-curso{
+  margin: 1rem;
+  height: 8rem;
+  widows: 8rem;
+}
