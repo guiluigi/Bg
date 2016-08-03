@@ -4,7 +4,9 @@
   $(function(){
     $('.parallax').parallax();
     $(".dropdown-button").dropdown();
-    $('.slider').slider();
+    $('.slider').slider({
+      height: 600
+    });
     $('.carousel').carousel({full_width: true});
     $(".button-collapse").sideNav('show');
     $('.collapsible').collapsible();

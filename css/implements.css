@@ -1,3 +1,9 @@
+/* LOGO */
+.brand-logo{
+  width: 2em;
+  height: 2em;
+}
+
 /* BLOCKQUOTE ANIMATION */
 blockquote {
     margin: 10px 0;
@@ -72,21 +78,18 @@ blockquote:hover{
 
   .hs-font-inline {
     font-family: "Homestead-Inline", "Roboto", sans-serif;
-    line-height: 1.5;
     font-weight: normal;
     color: rgba(0, 0, 0, 0.87);
   }
 
   .hs-font-display {
     font-family: "Homestead-Display", "Roboto", sans-serif;
-    line-height: 1.5;
     font-weight: normal;
     color: rgba(0, 0, 0, 0.87);
   }
 
   .hs-font-regular {
     font-family: "Homestead-Regular", "Roboto", sans-serif;
-    line-height: 1.5;
     font-weight: normal;
     color: rgba(0, 0, 0, 0.87);
 }
@@ -97,4 +100,43 @@ blockquote:hover{
   margin: 1rem;
   height: 8rem;
   widows: 8rem;
+}
+
+.icon-curso:hover{
+   animation: rodar 0.5s;
+}
+
+    /* ANIMAÇÕES */
+
+    @keyframes rodar{
+      0%{
+        transform:rotate(0deg);
+      }
+      50%{
+        transform:rotate(200deg)
+      }
+      100%{
+        transform:rotate(360deg);
+      }
+    }
+
+/* BOTÃO DE LINHA */
+
+.btn-line{
+  border: 2px solid rgba(0, 0, 0, 0.87);
+  border-radius: 5px;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  outline: 10px;
+  padding: 0 2rem;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: .5px;
+  transition: .2s ease-out;
+  cursor: pointer;
+}
 }
