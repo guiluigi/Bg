@@ -2,16 +2,17 @@
 /* global slider */
 (function($){
   $(function(){
+    $('.scrollspy').scrollSpy();
+    $('.materialboxed').materialbox();
     $('ul.tabs').tabs();
     $('.parallax').parallax();
     $(".dropdown-button").dropdown();
-    $('.slider').slider({
-      height: 600
-    });
-    $('.carousel').carousel({full_width: true});
     $(".button-collapse").sideNav('show');
     $('.collapsible').collapsible();
     $(".button-collapse").sideNav();
+    $('.carousel').carousel({full_width: true});
+
+    $('.slider').slider({height: 600});
     
     $('#btnPrev').click(function(){
 				$('.slider').slider('prev');
