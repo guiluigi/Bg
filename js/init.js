@@ -2,6 +2,7 @@
 /* global slider */
 (function($){
   $(function(){
+    $('ul.tabs').tabs();
     $('.parallax').parallax();
     $(".dropdown-button").dropdown();
     $('.slider').slider({
@@ -26,8 +27,9 @@
     $('.slider').mouseleave(function(e) {
         $('.slider').slider('start');
     });
-
+    
   });
+  
     // end of document ready
 })(jQuery); // end of jQuery name space
 

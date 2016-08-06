@@ -94,17 +94,35 @@ blockquote:hover{
     color: rgba(0, 0, 0, 0.87);
 }
 
-/* ICONES DE CURSOS */
+/* BOTÕES DE CURSOS */
+.cursos{
+  height: 13rem;
+  width: 9rem;
+}
 
 .icon-curso{
   margin: 1rem;
   height: 8rem;
-  widows: 8rem;
+  width: 8rem;
+  transition:all 0.5s;
+  opacity: 1;
 }
 
-.icon-curso:hover{
-   animation: rodar 0.5s;
+.cursos:hover .icon-curso{
+  opacity:0.2;
 }
+
+.titulo-curso{
+  margin-top: -4em; 
+  opacity: 0;
+  transition:all 0.5s;
+}
+
+.cursos:hover .titulo-curso{
+  opacity: 1;
+}
+
+
 
     /* ANIMAÇÕES */
 
@@ -120,23 +138,28 @@ blockquote:hover{
       }
     }
 
-/* BOTÃO DE LINHA */
+/* PARALLAX EDITS */
+.parallax-container {
+      height: 300px;
+    }
 
-.btn-line{
-  border: 2px solid rgba(0, 0, 0, 0.87);
-  border-radius: 5px;
-  display: inline-block;
-  height: 36px;
-  line-height: 36px;
-  outline: 10px;
-  padding: 0 2rem;
-  text-transform: uppercase;
-  vertical-align: middle;
-  -webkit-tap-highlight-color: transparent;
-  text-decoration: none;
-  text-align: center;
-  letter-spacing: .5px;
-  transition: .2s ease-out;
-  cursor: pointer;
+.parallax-title{
+  padding-top: 5rem;
 }
+
+/* TABS EDITS */
+.tabs .tab a{
+  color: #3f51b5;
+}
+
+.tabs .tab a:hover{
+  color: #7986cb;
+}
+
+.tabs .tab.disabled a{
+  color: #7986cb;
+}
+
+.tabs .indicator{
+  background-color: #5c6bc0;
 }

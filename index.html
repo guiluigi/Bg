@@ -3,7 +3,13 @@
 	<head> <!-- chamada de codigos -->
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<link rel="shortcut icon" href="" type="image/x-icon"/>
+		<!--[if IE]><link rel="shortcut icon" href="img/favicon.ico"><![endif]-->
+		<link rel="icon" href="img/favicon-16.png" sizes="16x16">
+		<link rel="icon" href="img/favicon-32.png" sizes="32x32">
+		<link rel="icon" href="img/favicon-48.png" sizes="48x48">
+		<link rel="icon" href="img/favicon-64.png" sizes="64x64">
+		<link rel="icon" href="img/favicon-128.png" sizes="128x128">
+		<link rel="icon" href="img/favicon-opera.png" sizes="256x160">
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
 		<title>Basilides de Godoy</title>
 		<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
@@ -37,7 +43,7 @@
 		<div class="navbar-fixed">
 		<nav class="indigo darken-4">
 			<div class="nav-wrapper">
-			<a href="#!" class="brand-logo"><img class="responsive-img" src="img/logo.svg"></a>
+			<a href="index.html" class="brand-logo"><img class="responsive-img" src="img/logo.svg"></a>
 			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 			<ul class="right hide-on-med-and-down">
 				<li><a href="index.html">Home</a></li>
@@ -108,53 +114,62 @@
 			
 			<div class="divider"></div>
 
-			<div class="col s6 l4">
-				<a href="info.html">
+			<br>
+
+			<div class="col s6 l4 cursos">
+				<a href="informatica.html">
 					<img class="icon-curso rodar" src="img/cursos/info.svg">
-					<h5 class="hs-font-regular ">Informática</h5>
+					<h5 class="hs-font-regular titulo-curso text-shadow-1-half hide-on-small-only">Informática</h5>
+					<h5 class="hs-font-regular hide-on-med-and-up">Informática</h5> <!-- no mobile -->
 				</a>
 			</div>
-			<div class="col s6 l4">
+			<div class="col s6 l4 cursos">
 				<a href="adm.html">
 					<img class="icon-curso" src="img/cursos/adm.svg">
-					<h5 class="hs-font-regular">Administração</h5>
+					<h5 class="hs-font-regular titulo-curso text-shadow-1-half hide-on-small-only">Administração</h5>
+					<h5 class="hs-font-regular hide-on-med-and-up">Administração</h5> <!-- no mobile -->
 				</a>
 			</div>
-			<div class="col s6 l4">
+			<div class="col s6 l4 cursos">
 				<a href="mecatronica.html">
 					<img class="icon-curso" src="img/cursos/mecatronica.svg">
-					<h5 class="hs-font-regular">Mecatrônica</h5>
+					<h5 class="hs-font-regular titulo-curso text-shadow-1-half hide-on-small-only">Mecatrônica</h5>
+					<h5 class="hs-font-regular hide-on-med-and-up">Mecatrônica</h5> <!-- no mobile -->
 				</a>
 			</div>
-			<div class="col s6 l3">
+			<div class="col s6 l3 cursos">
 				<a href="mecanica.html">
 					<img class="icon-curso" src="img/cursos/mecanica.svg">
-					<h5 class="hs-font-regular">Mecânica</h5>
+					<h5 class="hs-font-regular titulo-curso text-shadow-1-half hide-on-small-only">Mecânica</h5>
+					<h5 class="hs-font-regular hide-on-med-and-up">Mecânica</h5> <!-- no mobile -->
 				</a>
 			</div>
-			<div class="col s6 l3">
+			<div class="col s6 l3 cursos">
 				<a href="eletrocnica.html">
 					<img class="icon-curso" src="img/cursos/eletro.svg">
-					<h5 class="hs-font-regular">Eletrotécnica</h5>
+					<h5 class="hs-font-regular titulo-curso text-shadow-1-half hide-on-small-only">Eletrotécnica</h5>
+					<h5 class="hs-font-regular hide-on-med-and-up">Eletrotécnica</h5> <!-- no mobile -->
 				</a>
 			</div>
-			<div class="col s6 l3">
+			<div class="col s6 l3 cursos">
 				<a href="ensino_media.html">
 					<img class="icon-curso" src="img/cursos/em.svg">
-					<h5 class="hs-font-regular">Ensino médio e Integrado</h5>
+					<h5 class="hs-font-regular titulo-curso text-shadow-1-half hide-on-small-only">Ensino médio e Integrado</h5>
+					<h5 class="hs-font-regular hide-on-med-and-up">Ensino médio e Integrado</h5> <!-- no mobile -->
 				</a>
 			</div>
-			<div class="col s6 offset-s3 l3">
+			<div class="col s6 offset-s3 l3 cursos">
 				<a href="extensoes.html">
 					<img class="icon-curso" src="img/cursos/extensoes.svg">
-					<h5 class="hs-font-regular">Extensões</h5>
+					<h5 class="hs-font-regular titulo-curso text-shadow-1-half hide-on-small-only">Extensões</h5>
+					<h5 class="hs-font-regular hide-on-med-and-up">Extensões</h5> <!-- no mobile -->
 				</a>
 			</div>
 		</article>
 
 		<!-- fim CURSOS -->
 
-		<br><br>
+		<br>
 
 		<!-- AVISOS -->
 
@@ -168,7 +183,7 @@
 					</div>
            		 	<div class="card-action">
 						<span class="card-title activator hs-font-regular grey-text text-darken-4">Material<i class="material-icons right">more_vert</i></span>
-              			<p><a class="yellow-text text-accent-4" href="#">Leia mais</a></p>
+              			<p><a class="yellow-text text-accent-4" href="#"><strong>Leia mais</strong></a></p>
         			</div>
 					<div class="card-reveal">
       					<span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
@@ -183,21 +198,22 @@
 					</div>
            		 	<div class="card-action">
 						<span class="card-title activator hs-font-regular grey-text text-darken-4">Rematricula!<i class="material-icons right">more_vert</i></span>
-              			<p><a class="yellow-text text-accent-4" href="#">Leia mais</a></p>
+              			<p><a class="yellow-text text-accent-4" href="#"><strong>Leia mais</strong></a></p>
         			</div>
 					<div class="card-reveal">
       					<span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
       					<p>Já esta na hora de você refazer sua rematricula, veja aqui quais os requerimentos.</p>
    					</div>
          		</div>
-			</div><div class="col s12 m4">
+			</div>
+			<div class="col s12 m4">
 				<div class="card sticky-action">
 					<div class="card-image waves-effect waves-block waves-light">
 						<img class="activator" src="img/teste3.jpg">
 					</div>
            		 	<div class="card-action">
 						<span class="card-title activator hs-font-regular grey-text text-darken-4">Esteja na frente!<i class="material-icons right">more_vert</i></span>
-              			<p><a class="yellow-text text-accent-4" href="#">Leia mais</a></p>
+              			<p><a class="yellow-text text-accent-4" href="#"><strong>Leia mais</strong></a></p>
         			</div>
 					<div class="card-reveal">
       					<span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
@@ -216,7 +232,7 @@
             	<div class="col l4 s6">
             		<h5 class="grey-text text-lighten-4">Cursos</h5>
 					<ul>
-						<li><a class="grey-text text-lighten-3" href="info.html">Informatica</a></li>
+						<li><a class="grey-text text-lighten-3" href="informatica.html">Informatica</a></li>
 						<li><a class="grey-text text-lighten-3" href="adm.html">Administração</a></li>
 						<li><a class="grey-text text-lighten-3" href="mecatronica.html">Mecatronica</a></li>
 						<li><a class="grey-text text-lighten-3" href="mecanica.html">Mecanica</a></li>
@@ -248,8 +264,12 @@
 							</br> secretaria@basilides.com.br 
 							<blockquote><a class="grey-text text-lighten-3" href="professores.html"> Email dos Professores</a></blockquote>
 							</br>
-							<iframe class="hoverable hide-on-small-only" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14633.287262189586!2d-46.727858!3d-23.520925!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x671c9325c275132e!2sETEC+Prof.+Basilides+de+Godoy!5e0!3m2!1spt-BR!2sbr!4v1469456480860" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-							<iframe class="hoverable hide-on-med-and-up" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29266.57452437917!2d-46.727858!3d-23.520925!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x671c9325c275132e!2sETEC+Prof.+Basilides+de+Godoy!5e0!3m2!1spt-BR!2sbr!4v1470184603352" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</p>
+					<h5 class="grey-text text-lighten-4">Endereço</h5>
+						<p class="grey-text text-lighten-3">
+							Etec Prof. Basílides de Godoy R. Guaipá, 678 - <br>
+							Vila Leopoldina CEP 05089-000 - São Paulo/SP
+							<div class="btn yellow accent-4"><a class="grey-text text-darken-3" href="https://www.google.com/maps?ll=-23.520925,-46.727858&z=14&t=m&hl=pt-BR&gl=BR&mapclient=embed&cid=7429975275640001326"><i class="material-icons right">map</i>Ver mapa</a></div>
 						</p>
 				</div>
             </div>
