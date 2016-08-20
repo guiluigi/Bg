@@ -179,3 +179,16 @@ blockquote:hover{
   padding-left: 18px;
   border-left: 2px solid #1a237e;
 }
+
+/* SUBTITULO NOTICIA */
+.sub-noticia{
+  font-size: 80%;
+}
+
+/* TEXTO DO BLOG */
+.blog-text::first-letter{
+  font-family: "Homestead-Regular", "Roboto", sans-serif;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 200%;
+}
