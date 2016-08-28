@@ -201,10 +201,17 @@ blockquote:hover{
   margin-top: 0rem;
 }
 
-.sub-text{
+.list-title{
   border-left: 0px;
   border-right: 0px;
   border-top: 0px;
   border-color: #313131;
   border-style: solid; 
+}
+
+.sub-title{
+  font-family: "Homestead-Regular", "Roboto", sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+  padding-left: 5rem;
+  color: #283593;
 }
