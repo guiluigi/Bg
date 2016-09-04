@@ -2,6 +2,7 @@
 /* global slider */
 (function($){
   $(function(){
+    $('.modal-trigger').leanModal();
     $('.scrollspy').scrollSpy();
     $('.materialboxed').materialbox();
     $('ul.tabs').tabs();

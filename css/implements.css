@@ -141,6 +141,13 @@ blockquote:hover{
       }
     }
 
+/* BOTÕES REDE SOCIAIS */
+  .rs-logo{
+    height: 5rem;
+    widows: 5rem;
+    margin: 1rem;
+  }
+
 /* PARALLAX EDITS */
 .parallax-container {
       height: 300px;
