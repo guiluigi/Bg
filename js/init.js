@@ -12,6 +12,8 @@
     $('.collapsible').collapsible();
     $(".button-collapse").sideNav();
     $('.carousel').carousel({full_width: true});
+    $('.tooltipped').tooltip({delay: 50});
+     
 
     $('.slider').slider({height: 600});
     

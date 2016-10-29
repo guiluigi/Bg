@@ -4,6 +4,7 @@
   height: 2em;
 }
 
+
 /* BLOCKQUOTE & ANIMATION */
 blockquote{
   border-left: 5px solid #283593;
@@ -342,5 +343,25 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   .slide-btn-right:hover{
     opacity: 1;
     transition: 0.5s;
-    height: 
   }
+
+/* CORPO DOCENTE */
+
+  .corpo-docente > div > .tabs > .tab > a{
+    font-size: 75%;
+  }
+
+  .corpo-docente > article{
+    padding: 1rem;
+  }
+
+.corpo-docente a{
+  color: #ffea00;
+  transition: 0.5s;
+}
+
+.corpo-docente a:hover{
+  color: #ffd600;
+  border-bottom: 2px solid #ffd600; 
+  transition: 0.5s;
+}
