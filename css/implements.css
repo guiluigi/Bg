@@ -310,6 +310,17 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   color: #283593;
 }
 
+.input-field label { 
+  color: #283593;
+}
+.input-field input[type=text]:focus + label {
+  color: #283593;
+}
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #283593;
+  box-shadow: 0 1px 0 0 #283593;
+}
+
 /* SLIDER EDITS */
   .slide-btn-left{
     position: absolute;
