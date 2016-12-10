@@ -405,5 +405,26 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   cursor: default;
 }
 
+/* EVENTOS */
 
+.img-evento{
+  border-radius: 5px;
+}
 
+.evento:hover .img-evento{
+  opacity:0.4;
+}
+
+.titulo-evento{
+  margin-top: -5em; 
+  opacity: 0;
+  transition:all 0.5s;
+}
+
+.evento:hover .titulo-evento{
+  opacity: 1;
+}
+
+.titulo-evento-mob{
+  font-size: 130%;
+}
