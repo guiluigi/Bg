@@ -418,7 +418,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 .titulo-evento{
   margin-top: -5em; 
   opacity: 0;
-  transition:all 0.5s;
+  transition: 0.5s;
 }
 
 .evento:hover .titulo-evento{
@@ -427,4 +427,12 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 
 .titulo-evento-mob{
   font-size: 130%;
+}
+
+.carousel .indicators .indicator-item {
+  background-color: #fffde7;   
+}
+
+.carousel .indicators .indicator-item.active {
+  background-color: #ffff00;
 }

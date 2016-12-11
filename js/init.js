@@ -11,7 +11,7 @@
     $(".button-collapse").sideNav('show');
     $('.collapsible').collapsible();
     $(".button-collapse").sideNav();
-    $('.carousel').carousel({full_width: true});
+    $('.carousel').carousel({indicators: true, full_width: true});
     $('.tooltipped').tooltip({delay: 50});
      
 
