@@ -100,6 +100,10 @@ footer blockquote:hover{
     color: rgba(0, 0, 0, 0.87);
 }
 
+.strong{
+  font-size: 120%;
+}
+
 /* FORÇA O PADDING */
  .fm-1{
    margin: 1rem;
@@ -407,6 +411,10 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 
 /* EVENTOS */
 
+.evento{
+    margin-bottom: 7rem; 
+}
+
 .img-evento{
   border-radius: 5px;
 }
@@ -427,6 +435,19 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 
 .titulo-evento-mob{
   font-size: 130%;
+}
+
+.carousel{
+  max-height: 500px;
+}
+
+.carousel .carousel-item img {
+  height: 500px;
+}
+
+.carousel .carousel-item img .vertical-img{
+  max-height: 500px;
+  align-content: center;
 }
 
 .carousel .indicators .indicator-item {
