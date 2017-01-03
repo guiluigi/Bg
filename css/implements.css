@@ -104,6 +104,15 @@ footer blockquote:hover{
   font-size: 120%;
 }
 
+/* DIVIDER VERTICAL */
+
+.divider-vert-10{
+  width: 1px;
+  height: 10rem;
+  overflow: hidden;
+  background-color: #e0e0e0;
+}
+
 /* FORÇA O PADDING */
  .fm-1{
    margin: 1rem;
@@ -153,7 +162,6 @@ footer blockquote:hover{
 
 /* BOTÕES REDE SOCIAIS */
  
-
   .logo-rs{
     height: 5rem;
     width: 5rem;
@@ -456,4 +464,20 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 
 .carousel .indicators .indicator-item.active {
   background-color: #ffff00;
+}
+
+ /* SEARCH */
+
+.search-categoria{
+  font-size: 75%;
+  color: #9e9e9e !important;
+  position: absolute;
+  top: -5px;
+}
+.search-data{
+  font-size: 75%;
+  color: #9e9e9e !important;
+  position: absolute;
+  bottom: -5px;
+  left: 16px;
 }
