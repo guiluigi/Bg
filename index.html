@@ -45,7 +45,9 @@
 			<div class="nav-wrapper">
 			<a href="index.html" class="brand-logo"><img class="responsive-img" src="img/logo.svg"></a>
 			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			
 			<ul class="right hide-on-med-and-down">
+				
 				<li><a href="index.html">Home</a></li>
 				<li><a href="vestibulinho.html">Vestibulinho</a></li>
 				<li><a class="dropdown-button" href="secretaria.html" data-activates="drop-secretaria">Secretaria <i class="material-icons right">arrow_drop_down</i></a></li>
@@ -53,6 +55,7 @@
 				<li><a href="noticias.html">Noticias</a></li>
 				<li><a href="ajuda.html">Ajuda</a></li>
 				<li><a class="btn yellow accent-3 grey-text text-darken-3 hs-font-regular" href="sistema.html">Sistema</a></li>
+				<li><a href="#search-modal" class="modal-trigger modal-close"><i class="material-icons">search</i> </a></li>
 			</ul>
 			<ul class="side-nav" id="mobile-demo">
 				<li><a class="btn yellow accent-3 grey-text text-darken-3 hs-font-regular" href="sistema.html">Sistema</a></li>
@@ -62,9 +65,34 @@
 				<li><a href="alunos.html">Alunos</a></li>
 				<li><a href="noticias.html">Noticias</a></li>
 				<li><a href="ajuda.html">Ajuda</a></li>
+				<li>
+					<form>
+						<div class="input-field">
+							<input placeholder="pesquisa" id="search" type="search" required>
+							<label for="search"><i class="material-icons grey-text text-darken-3">search</i></label>
+							<i class="material-icons">close</i>
+						</div>
+					</form>
+				</li>
 			</ul>
 			</div>
 		</nav>
+		</div>
+
+		<div id="search-modal" class="modal"> <!-- modal de pesquisa -->
+			<div class="modal-content">
+				<h3 class="hs-font-regular">O que deseja procurar?</h3>
+				<form>
+					<div class="input-field">
+						<input id="search" type="search" required>
+						<label for="search"><i class="material-icons">search</i></label>
+						<i class="material-icons">close</i>
+					</div>
+			</form>
+			</div>
+			<div class="modal-footer center">
+      			<a href="#!" class=" modal-action modal-close"><i class="material-icons grey-text">close</i></a>
+    		</div>
 		</div>
 
 		<!-- fim NAVBAR -->
