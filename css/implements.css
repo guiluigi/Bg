@@ -229,7 +229,7 @@ footer blockquote:hover{
   font-size: 80%;
 }
 
-/* TEXTO DO BLOG */
+/* BLOG */
 .blog-text{
   padding-left: 3rem;
 }
@@ -331,6 +331,17 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 .input-field input[type=text]:focus {
   border-bottom: 1px solid #283593;
   box-shadow: 0 1px 0 0 #283593;
+}
+
+.card-content > p.secondary-content-post{
+  position: absolute;
+  right: 1rem;
+  bottom: 0.5rem;
+}
+
+.card-content > h4.post-title{
+  margin-top: 0;
+  margin-bottom: 1.5rem; 
 }
 
 /* SLIDER EDITS */
