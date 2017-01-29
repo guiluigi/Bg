@@ -13,6 +13,7 @@
     $(".button-collapse").sideNav();
     $('.carousel').carousel({indicators: true, full_width: true});
     $('.tooltipped').tooltip({delay: 50});
+    $('select').material_select();
      
 
     $('.slider').slider({height: 600});
