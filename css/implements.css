@@ -436,31 +436,31 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   cursor: default;
 }
 
-/* EVENTOS */
+/* GALERIA */
 
-.evento{
+.galeria{
     margin-bottom: 7rem; 
 }
 
-.img-evento{
+.img-galeria{
   border-radius: 5px;
 }
 
-.evento:hover .img-evento{
+.galeria:hover .img-galeria{
   opacity:0.4;
 }
 
-.titulo-evento{
+.titulo-galeria{
   margin-top: -5em; 
   opacity: 0;
   transition: 0.5s;
 }
 
-.evento:hover .titulo-evento{
+.galeria:hover .titulo-galeria{
   opacity: 1;
 }
 
-.titulo-evento-mob{
+.titulo-galeria-mob{
   font-size: 130%;
 }
 
