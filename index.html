@@ -27,57 +27,68 @@
 
 		<!-- NAVBAR -->
 
-		<ul id="drop-secretaria" class="dropdown-content">
+		<ul id="drop-secretaria" class="dropdown-content"> <!-- MENU DROPDOWN DESKTOP -->
 			<li><a class="grey-text text-darken-3" href="#!">um</a></li>
 			<li><a class="grey-text text-darken-3" href="#!">dois</a></li>
 			<li><a class="grey-text text-darken-3" href="#!">tres</a></li>
 			<li><a class="grey-text text-darken-3" href="#!">quatro</a></li>
 		</ul>
-		<ul id="drop-secretaria-mob" class="dropdown-content">
+		<ul id="drop-secretaria-mob" class="dropdown-content"> <!-- MENU DROPDOWN MOBILE -->
 			<li><a class="grey-text text-darken-3" href="#!">um</a></li>
 			<li><a class="grey-text text-darken-3" href="#!">dois</a></li>
 			<li><a class="grey-text text-darken-3" href="#!">tres</a></li>
 			<li><a class="grey-text text-darken-3" href="#!">quatro</a></li>
 		</ul>
 		
-		<div class="navbar-fixed">
-		<nav class="indigo darken-4">
-			<div class="nav-wrapper">
-			<a href="index.html" class="brand-logo"><img class="responsive-img" src="img/logo.svg"></a>
-			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-			
-			<ul class="right hide-on-med-and-down">
-				
-				<li><a href="index.html">Home</a></li>
-				<li><a href="vestibulinho.html">Vestibulinho</a></li>
-				<li><a class="dropdown-button" href="secretaria.html" data-activates="drop-secretaria">Secretaria <i class="material-icons right">arrow_drop_down</i></a></li>
-				<li><a href="alunos.html">Alunos</a></li>
-				<li><a href="noticias.html">Noticias</a></li>
-				<li><a href="ajuda.html">Ajuda</a></li>
-				<li><a class="btn yellow accent-3 grey-text text-darken-3 hs-font-regular" href="sistema.html">Sistema</a></li>
-				<li><a href="#search-modal" class="modal-trigger modal-close"><i class="material-icons">search</i> </a></li>
-			</ul>
-			<ul class="side-nav" id="mobile-demo">
-				<li><a class="btn yellow accent-3 grey-text text-darken-3 hs-font-regular" href="sistema.html">Sistema</a></li>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="vestibulinho.html">Vestibulinho</a></li>
-				<li><a class="dropdown-button" href="secretaria.html" data-activates="drop-secretaria-mob">Secretaria <i class="material-icons right">arrow_drop_down</i></a></li>
-				<li><a href="alunos.html">Alunos</a></li>
-				<li><a href="noticias.html">Noticias</a></li>
-				<li><a href="ajuda.html">Ajuda</a></li>
-				<li>
-					<form>
-						<div class="input-field">
-							<input placeholder="pesquisa" id="search" type="search" required>
-							<label for="search"><i class="material-icons grey-text text-darken-3">search</i></label>
-							<i class="material-icons">close</i>
-						</div>
-					</form>
-				</li>
-			</ul>
+
+		<header>
+			<div id="logo-header" class="indigo darken-3"> <!-- NOME DA ETEC -->
+				<h1 class="hs-font-display center white-text text-shadow-1-half">Basílides de Godoy</h1>
 			</div>
-		</nav>
-		</div>
+
+			<div>
+			<nav id="nav-header" class="indigo darken-4">
+				<div class="nav-wrapper">
+					<a href="index.html" class="brand-logo"> <!-- BRAZAO/LOGO -->
+						<img class="responsive-img" src="img/brazao.png">
+					</a>
+					<a href="#" data-activates="mobile-demo" class="button-collapse"> <!-- MENU HAMBURGUER -->
+						<i class="material-icons">menu</i>
+					</a>
+					
+					<ul class="right hide-on-med-and-down">
+						
+						<li><a href="index.html">Home</a></li>
+						<li><a href="vestibulinho.html">Vestibulinho</a></li>
+						<li><a class="dropdown-button" href="secretaria.html" data-activates="drop-secretaria">Secretaria <i class="material-icons right">arrow_drop_down</i></a></li>
+						<li><a href="alunos.html">Alunos</a></li>
+						<li><a href="noticias.html">Noticias</a></li>
+						<li><a href="ajuda.html">Ajuda</a></li>
+						<li><a class="btn yellow accent-3 grey-text text-darken-3 hs-font-regular" href="sistema.html">Sistema</a></li>
+						<li><a href="#search-modal" class="modal-trigger modal-close"><i class="material-icons">search</i> </a></li>
+					</ul>
+					<ul class="side-nav" id="mobile-demo">
+						<li><a class="btn yellow accent-3 grey-text text-darken-3 hs-font-regular" href="sistema.html">Sistema</a></li>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="vestibulinho.html">Vestibulinho</a></li>
+						<li><a class="dropdown-button" href="secretaria.html" data-activates="drop-secretaria-mob">Secretaria <i class="material-icons right">arrow_drop_down</i></a></li>
+						<li><a href="alunos.html">Alunos</a></li>
+						<li><a href="noticias.html">Noticias</a></li>
+						<li><a href="ajuda.html">Ajuda</a></li>
+						<li>
+							<form>
+								<div class="input-field">
+									<input placeholder="pesquisa" id="search" type="search" required>
+									<label for="search"><i class="material-icons grey-text text-darken-3">search</i></label>
+									<i class="material-icons">close</i>
+								</div>
+							</form>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			</div>
+		</header>
 
 		<div id="search-modal" class="modal"> <!-- modal de pesquisa -->
 			<div class="modal-content">
@@ -321,11 +332,54 @@
           <div class="footer-copyright">
             <div class="container">
             © 2016 Basilides de Godoy 
-            <a class="grey-text text-lighten-4 right" href="#!">Mais links</a>
+            <a href="#dev-modal" data-target="dev-modal" class="modal-trigger modal-close grey-text text-lighten-4 right">Desenvolvido por 
+				<span class="yellow-text text-accent-4"> Guilherme Luigi</span> & <span class="yellow-text text-accent-4">Leandro</span>
+            </a>
             </div>
           </div>
         </footer>
 		<!--fim FOOTER -->
+
+		<div id="dev-modal" class="modal"> <!-- modal dos devs -->
+			<div class="modal-content center">
+				<h2 class="hs-font-regular grey-text text-darken-4 ">DEVELOPERS</h2>
+				<div class="divider grey darken-3"></div>
+
+				<br>
+
+				<div class="row">
+					<div class="col s12 m6 center">
+						<h3 class="hs-font-regular indigo-text text-darken-2">Guilherme Luigi</h3>
+						<h6 class="hs-font-regular">Front-end/UX Designer</h6>
+						<img class="circle responsive-img z-depth-1-half" src="img/devs/luigi.png"/>
+						<div class="center"> <!-- contato devs -->
+							<a href="https://github.com/guiluigi"> 
+								<img class="logo-rs-devs" src="img/redes_sociais/github.svg"/>
+							</a>
+							<a href="https://www.linkedin.com/in/guiluigi/"> 
+								<img class="logo-rs-devs" src="img/redes_sociais/linkedin.svg"/>
+							</a>
+						</div>
+					</div>
+					<div class="col s12 m6 center">
+						<h3 class="hs-font-regular indigo-text text-darken-2">Leandro Souza</h3>
+						<h6 class="hs-font-regular">Back-end</h6>
+						<img class="circle responsive-img z-depth-1-half" src="img/devs/leandro.jpg"/>
+						<div class="center"> <!-- contato devs -->
+							<a href="http://Github.com/leandrosl"> 
+								<img class="logo-rs-devs" src="img/redes_sociais/github.svg"/>
+							</a>
+							<a href="https://www.linkedin.com/in/leandro-souza-37991852/"> 
+								<img class="logo-rs-devs" src="img/redes_sociais/linkedin.svg"/>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer center">
+      			<a href="#!" class=" modal-action modal-close"><i class="material-icons grey-text">close</i></a>
+    		</div>
+		</div>
 		
 	</body>
 	

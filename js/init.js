@@ -21,9 +21,9 @@
     $('#btnPrev').click(function(){
 				$('.slider').slider('prev');
 		});
-		$('#btnNext').click(function(){
+	$('#btnNext').click(function(){
 				$('.slider').slider('next');
-		});
+	});
 
     $('.slider').mouseenter(function(e) {
         $('.slider').slider('pause');
@@ -33,6 +33,15 @@
         $('.slider').slider('start');
     });
     
+
+    var nav = $('#nav-header');   
+			$(window).scroll(function () { 
+				if ($(this).scrollTop() > 100) { 
+					nav.addClass("fixed-nav-header"); 
+				} else { 
+					nav.removeClass("fixed-nav-header"); 
+				} 
+			});  
   });
   
     // end of document ready

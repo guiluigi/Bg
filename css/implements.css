@@ -1,39 +1,32 @@
-/* LOGO */
+/* LOGO & NAVBAR */
+
+#logo-header{
+	height: 100px;
+  padding-top: 0.1px;
+}
+
+#nav-header{
+  position: relative;
+}
+
+.fixed-nav-header{
+	position:fixed !important;
+	top: 0;
+  z-index: 99;
+}
+
 .brand-logo{
   width: 2em;
   height: 2em;
+  padding: 0;
 }
 
-
-/* BLOCKQUOTE & ANIMATION */
-blockquote{
-  border-left: 5px solid #283593;
-  padding-left: 0.5rem;
+nav ul a {
+  padding: 0 10px;
 }
 
-footer blockquote {
-    margin: 10px 0;
-    padding-left: 1.5rem;
-    border-left: 5px solid #212121;
-    -webkit-transition:  1s;
-    -moz-transition:  1s;
-    transition:  1s;
-}
-
-footer blockquote:hover{
-    -webkit-transition:  1s;
-    -moz-transition:  1s;
-    transition:  1s;
-    padding-left: 0.5rem;
-}
-
-/* ITEM SLIDER COLOR */
-.slider .indicators .indicator-item.active {
-  background-color: #304ffe;
-}
 
 /* TEXT SHADOWS */
-
 .text-shadow-1{
   text-shadow: 0 2px 5px  rgba(0, 0, 0, 0.16), 0 2px 10px  rgba(0, 0, 0, 0.12);
 }
@@ -51,7 +44,6 @@ footer blockquote:hover{
 }
 
 /* FONTES ALTERNATIVAS */
-
 @font-face {
 	font-family: "Homestead-Display";
 	src: local("Homestead-Display.ttf"), url("../fonts/homestead/Homestead-Display.ttf") format("opentype");
@@ -104,14 +96,6 @@ footer blockquote:hover{
   font-size: 120%;
 }
 
-/* DIVIDER VERTICAL */
-
-.divider-vert-10{
-  width: 1px;
-  height: 10rem;
-  overflow: hidden;
-  background-color: #e0e0e0;
-}
 
 /* FORÇA O PADDING */
  .fm-1{
@@ -134,8 +118,36 @@ footer blockquote:hover{
    padding-left: 1rem;
  }
 
-/* BOTÕES DE CURSOS */
+/* BLOCKQUOTE & ANIMATION */
+blockquote{
+  border-left: 5px solid #283593;
+  padding-left: 0.5rem;
+}
 
+footer blockquote {
+    margin: 10px 0;
+    padding-left: 1.5rem;
+    border-left: 5px solid #212121;
+    -webkit-transition:  1s;
+    -moz-transition:  1s;
+    transition:  1s;
+}
+
+footer blockquote:hover{
+    -webkit-transition:  1s;
+    -moz-transition:  1s;
+    transition:  1s;
+    padding-left: 0.5rem;
+}
+
+
+/* ITEM SLIDER COLOR */
+.slider .indicators .indicator-item.active {
+  background-color: #304ffe;
+}
+
+
+/* BOTÕES DE CURSOS */
 .cursos{
   height: 13rem;
   width: 9rem;
@@ -168,14 +180,20 @@ footer blockquote:hover{
   font-size: 130%;
 }
 
+
 /* BOTÕES REDE SOCIAIS */
- 
   .logo-rs{
     height: 5rem;
     width: 5rem;
     margin: 1rem;
     opacity: 1;
     transition:all 0.5s;
+  }
+
+  .logo-rs-devs{
+    height: 3rem;
+    width: 3rem;
+    margin: 1rem;
   }
 
   .titulo-rs{
@@ -193,6 +211,13 @@ footer blockquote:hover{
     opacity: 1;
   }
 
+
+/* TOAST EDITS */
+.toast{
+  background-color: #3f51b5;
+}
+
+
 /* PARALLAX EDITS */
 .parallax-container {
       height: 300px;
@@ -201,6 +226,7 @@ footer blockquote:hover{
 .parallax-title{
   padding-top: 5rem;
 }
+
 
 /* TABS EDITS */
 .tabs .tab a{
@@ -219,6 +245,7 @@ footer blockquote:hover{
   background-color: #5c6bc0;
 }
 
+
 /* SCROLLSPY EDITS */
 .table-of-contents a:hover {
   color: #a8a8a8;
@@ -232,10 +259,12 @@ footer blockquote:hover{
   border-left: 2px solid #1a237e;
 }
 
+
 /* SUBTITULO NOTICIA */
 .sub-noticia{
   font-size: 80%;
 }
+
 
 /* BLOG */
 .blog-text{
@@ -359,6 +388,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   margin-bottom: 1.5rem; 
 }
 
+
 /* SLIDER EDITS */
   .slide-btn-left{
     position: absolute;
@@ -390,8 +420,8 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
     transition: 0.5s;
   }
 
-/* CORPO DOCENTE */
 
+/* CORPO DOCENTE */
   .corpo-docente > div > .tabs > .tab > a{
     font-size: 75%;
   }
@@ -411,12 +441,12 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   transition: 0.5s;
 }
 
+
 /* COLLECTION EDITS */
 .collection .secondary-content{
   color: black;
   font-weight: 900;
 }
-
 
 .collection .span-content{
   color: black;
@@ -441,7 +471,6 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 }
 
 /* GALERIA */
-
 .galeria{
     margin-bottom: 7rem; 
 }
@@ -498,9 +527,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 } */
 
 
-
  /* SEARCH & CATEGORIA */
-
 .search-categoria{
   font-size: 75%;
   color: #9e9e9e !important;
