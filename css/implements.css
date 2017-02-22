@@ -497,23 +497,6 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   font-size: 130%;
 }
 
-.breadcrumb{
-  color: #424242; 
-}
-
-.breadcrumb:hover{
-  color: #424242;
-}
-
-.breadcrumb.disabled{
-  color: #757575 !important;
-  cursor: default;
-}
-
-.breadcrumb:before {
-  color: #bdbdbd !important;
-}
-
 /* .slider-galeria{
   height: 400px !important;
 }
