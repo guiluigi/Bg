@@ -141,6 +141,12 @@ footer blockquote:hover{
 }
 
 
+/* ESCURECER IMAGEM */
+.darken-img {
+    -webkit-filter: brightness(50%); 
+            filter: brightness(50%); 
+}
+
 /* ITEM SLIDER COLOR */
 .slider .indicators .indicator-item.active {
   background-color: #304ffe;
