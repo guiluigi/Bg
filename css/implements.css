@@ -410,6 +410,16 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
     text-shadow: 0 8px 13px  rgba(0, 0, 0, 0.24), 0 17px 50px  rgba(0, 0, 0, 0.19);
     transition: 0.5s;
   }
+
+  .slide-btn-left i{
+    transition: 0.5s;
+  }
+
+  .slide-btn-left i:hover{
+    color: #ffea00 !important;
+    transition: 0.5s;
+  }
+
     .slide-btn-right{
     position: absolute;
     top: 50%;
@@ -422,6 +432,15 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 
   .slide-btn-right:hover{
     text-shadow: 0 8px 13px  rgba(0, 0, 0, 0.24), 0 17px 50px  rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+  }
+
+  .slide-btn-right i{
+    transition: 0.5s;
+  }
+
+  .slide-btn-right i:hover{
+    color: #ffea00 !important;
     transition: 0.5s;
   }
 
@@ -502,17 +521,25 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   font-size: 130%;
 }
 
-/* .slider-galeria{
-  height: 400px !important;
+.carousel-slider{
+  max-height: 550px !important;
 }
 
-.slider-galeria .slides{
-  height: 400px !important;
+.carousel-slider .slides{
+  max-height: 550px !important;
 }
 
-.slider-galeria .slides img{
-  height: 400px !important;
-} */
+.carousel-slider .carousel-item img{
+  max-height: 550px !important;
+}
+
+.carousel .indicators .indicator-item.active {
+    background-color: #1a237e;
+}
+
+.carousel .indicators .indicator-item:hover{
+  background-color: #ffd600;
+}
 
 
  /* SEARCH & CATEGORIA */
