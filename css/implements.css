@@ -160,8 +160,15 @@ footer blockquote:hover{
 
 /* BOTÕES DE CURSOS */
 .cursos{
-  height: 13rem;
+  height: 15rem;
   width: 9rem;
+}
+
+@media only screen and (max-width: 350px) {
+  .cursos{
+    height: 20rem !important;
+    
+  }
 }
 
 .icon-curso{
@@ -254,6 +261,10 @@ footer blockquote:hover{
 
 .tabs .indicator{
   background-color: #5c6bc0;
+}
+
+.tabs .tab a.active{
+  color: #3f51b5;
 }
 
 
