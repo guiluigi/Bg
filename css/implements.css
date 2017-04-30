@@ -294,6 +294,16 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
 
 
 /* BLOG */
+.parallax-blog{
+  height: 350px
+}
+
+@media only screen and (max-width: 740px) {
+  .parallax-blog{
+  height: 500px;
+  }
+}
+
 .blog-text{
   padding-left: 3rem;
 }
