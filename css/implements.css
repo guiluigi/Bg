@@ -152,6 +152,11 @@ footer blockquote:hover{
             filter: brightness(50%); 
 }
 
+/* NAVBAR EDITS */
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 15px;
+}
+
 /* ITEM SLIDER COLOR */
 .slider .indicators .indicator-item.active {
   background-color: #304ffe;
