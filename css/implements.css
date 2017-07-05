@@ -6,7 +6,7 @@ body{
 /* LOGO & NAVBAR */
 
 #logo-header{
-	height: 100px;
+	height: 120px;
   padding-top: 0.1px;
 }
 
@@ -21,13 +21,17 @@ body{
 }
 
 .brand-logo{
-  width: 2em;
-  height: 2em;
-  padding: 0;
+  width: 1.8em;
+  margin: 2px auto;
+  left: 3px;
 }
 
 nav ul a {
   padding: 0 10px;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 15px;
 }
 
 
@@ -150,11 +154,6 @@ footer blockquote:hover{
 .darken-img {
     -webkit-filter: brightness(50%); 
             filter: brightness(50%); 
-}
-
-/* NAVBAR EDITS */
-nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
-    height: 15px;
 }
 
 /* ITEM SLIDER COLOR */
