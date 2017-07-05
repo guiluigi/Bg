@@ -105,6 +105,11 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
   font-size: 120%;
 }
 
+/* LINK EDIT */
+p a{
+  color: #ffea00;
+}
+
 
 /* FORÇA O PADDING */
  .fm-1{
