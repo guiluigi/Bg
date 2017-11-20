@@ -105,6 +105,10 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
   font-size: 120%;
 }
 
+.bolder{
+  font-weight: 900 !important;
+}
+
 /* LINK EDIT */
 p a{
   color: #ffea00;
