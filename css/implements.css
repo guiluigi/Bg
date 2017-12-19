@@ -319,6 +319,14 @@ footer blockquote:hover{
 
 
 /* BLOG */
+.post-card{
+  width: 100%;
+}
+
+.post-img{
+  height: 25vh; 
+}
+
 .parallax-blog{
   height: 350px
 }
