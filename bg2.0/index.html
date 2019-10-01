@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head> <!-- chamada de codigos -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
+		<!--[if IE]><link rel="shortcut icon" href="img/favicon.ico"><![endif]-->
+		<link rel="icon" href="img/favicon-16.png" sizes="16x16">
+		<link rel="icon" href="img/favicon-32.png" sizes="32x32">
+		<link rel="icon" href="img/favicon-48.png" sizes="48x48">
+		<link rel="icon" href="img/favicon-64.png" sizes="64x64">
+		<link rel="icon" href="img/favicon-128.png" sizes="128x128">
+		<link rel="icon" href="img/favicon-opera.png" sizes="256x160">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+		<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+		<link type="text/css" rel="stylesheet" href="css/implements.css" media="screen,projection"/> 
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+		<!-- <link type="text/css" rel="stylesheet" href="css/style.min.css" media="screen,projection"/> -->
+		<title>Basilides de Godoy</title>
+	</head>
+	
+	<body>
+
+		<!-- NAVBAR -->
+
+		<ul id="drop-secretaria" class="dropdown-content"> <!-- MENU DROPDOWN DESKTOP -->
+			<li><a class="grey-text text-darken-3" href="#!">um</a></li>
+			<li><a class="grey-text text-darken-3" href="#!">dois</a></li>
+			<li><a class="grey-text text-darken-3" href="#!">tres</a></li>
+			<li><a class="grey-text text-darken-3" href="#!">quatro</a></li>
+		</ul>
+		<ul id="drop-secretaria-mob" class="dropdown-content"> <!-- MENU DROPDOWN MOBILE -->
+			<li><a class="grey-text text-darken-3" href="#!">um</a></li>
+			<li><a class="grey-text text-darken-3" href="#!">dois</a></li>
+			<li><a class="grey-text text-darken-3" href="#!">tres</a></li>
+			<li><a class="grey-text text-darken-3" href="#!">quatro</a></li>
+		</ul>
+		
+
+		<header>
+			<div id="logo-header" class="indigo darken-3"> <!-- NOME DA ETEC -->
+				<h1 class="hs-font-display center white-text text-shadow-1-half">Basílides de Godoy</h1>
+			</div>
+
+			<nav id="nav-header" class="indigo darken-4">
+				<div class="nav-wrapper">
+					<a href="index.html" class="brand-logo"> <!-- BRAZAO/LOGO -->
+						<img class="responsive-img" src="img/brazao2.png">
+					</a>
+					<a href="#" data-activates="mobile-demo" class="button-collapse"> <!-- MENU HAMBURGUER -->
+						<i class="material-icons">menu</i>
+					</a>
+					
+					<ul class="right hide-on-med-and-down">
+						
+						<li><a href="index.html">Home</a></li>
+						<li><a href="vestibulinho.html">Vestibulinho</a></li>
+						<li><a class="dropdown-button" href="secretaria.html" data-activates="drop-secretaria">Secretaria <i class="material-icons right">arrow_drop_down</i></a></li>
+						<li><a href="alunos.html">Alunos</a></li>
+						<li><a href="noticias.html">Noticias</a></li>
+						<li><a href="ajuda.html">Ajuda</a></li>
+						<li><a class="btn yellow accent-3 grey-text text-darken-3 hs-font-regular" href="sistema.html">Sistema</a></li>
+						<li><a href="#search-modal" class="modal-trigger modal-close"><i class="material-icons">search</i> </a></li>
+					</ul>
+					<ul class="side-nav" id="mobile-demo">
+						<li><a class="btn yellow accent-3 grey-text text-darken-3 hs-font-regular" href="sistema.html">Sistema</a></li>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="vestibulinho.html">Vestibulinho</a></li>
+						<li><a class="dropdown-button" href="secretaria.html" data-activates="drop-secretaria-mob">Secretaria <i class="material-icons right">arrow_drop_down</i></a></li>
+						<li><a href="alunos.html">Alunos</a></li>
+						<li><a href="noticias.html">Noticias</a></li>
+						<li><a href="ajuda.html">Ajuda</a></li>
+						<li>
+							<form>
+								<div class="input-field">
+									<input placeholder="pesquisa" id="search" type="search" required>
+									<label for="search"><i class="material-icons grey-text text-darken-3">search</i></label>
+									<i class="material-icons">close</i>
+								</div>
+							</form>
+						</li>
+					</ul>
+				</div>
+			</nav>
+
+		</header>
+
+		<div id="search-modal" class="modal"> <!-- modal de pesquisa -->
+			<div class="modal-content">
+				<h3 class="hs-font-regular">O que deseja procurar?</h3>
+				<form>
+					<div class="input-field">
+						<input id="search" type="search" required>
+						<label for="search"><i class="material-icons">search</i></label>
+						<i class="material-icons">close</i>
+					</div>
+			</form>
+			</div>
+			<div class="modal-footer center">
+      			<a href="#!" class=" modal-action modal-close"><i class="material-icons grey-text">close</i></a>
+    		</div>
+		</div>
+
+		<!-- fim NAVBAR -->
+
+		<!-- SLIDESHOW -->
+
+		<div class="slider">
+			<ul class="slides">
+			<li>
+				<img class="darken-img" src="img/slide-1.jpg"> <!-- random image -->
+				<div class="caption center-align text-shadow-2">
+				<h3 class="hs-font-display white-text">Matriculas abertas!</h3>
+				<h5 class="light grey-text text-lighten-3">Seu grande sonho está de braços abertos para você</h5>
+				</div>
+			</li>
+			<li>
+				<img class="darken-img" src="img/slide-2.jpg"> <!-- random image -->
+				<div class="caption left-align text-shadow-2">
+				<h3 class="hs-font-inline white-text">Conheça nossos cursos</h3>
+				<h5 class="light grey-text text-lighten-3">Somos a 3º melhor ETEC!</h5>
+				</div>
+			</li>
+			<li>
+				<img class="darken-img" src="img/slide-3.jpg"> <!-- random image -->
+				<div class="caption right-align text-shadow-2">
+				<h3 class="hs-font-regular white-text">BIRRLL</h3>
+				<h5 class="light grey-text text-lighten-3">Ta saindo da jaula o monstro!</h5>
+			</li>
+			</ul>
+			<div class="slide-btn-left" id="btnPrev"> 
+				<i class="large material-icons white-text">keyboard_arrow_left</i> 
+			</div>
+			<div class="slide-btn-right" id="btnNext">
+				<i class="large material-icons white-text">keyboard_arrow_right</i> 
+			</div>
+		</div>
+
+		<!-- fim SLIDESHOW -->
+		<br><br><br>
+		<!-- CURSOS -->
+
+		<article class="row container center"> <!-- site desktop icones em 3 por 4 -->
+			<h3 class="hs-font-display"><b>GRADUAÇÃO</b></h2>
+			<h6>Conheça toda grade curricular dos cursos oferecidos na ETEC Basilides de Godoy</h6>
+			
+			<div class="divider"></div>
+
+			<br>
+
+			<div class="col s6 l4 cursos">
+				<a href="informatica.html">
+					<img class="icon-curso rodar" src="img/cursos/info.svg">
+					<h5 class="hs-font-regular titulo-curso text-shadow-1-half hide-on-small-only">Informática</h5>
+					<h5 class="hs-font-regular hide-on-med-and-up titulo-curso-mob">Informática integrado ao ensino medio</h5> <!-- no mobile -->
+				</a>
+			</div>
+			<div class="col s6 l4 cursos">
+				<a href="adm.html">
+					<img class="icon-curso" src="img/cursos/adm.svg">
+					<h5 class="hs-font-regular titulo-curso text-shadow-1-half hide-on-small-only">Administração</h5>
+					<h5 class="hs-font-regular hide-on-med-and-up titulo-curso-mob">Administração integrado ao ensino medio</h5> <!-- no mobile -->
+				</a>
+			</div>
+			<div class="col s6 l4 cursos">
+				<a href="mecatronica.html">
+					<img class="icon-curso" src="img/cursos/mecatronica.svg">
+					<h5 class="hs-font-regular titulo-curso text-shadow-1-half hide-on-small-only">Mecatrônica</h5>
+					<h5 class="hs-font-regular hide-on-med-and-up titulo-curso-mob">Mecatrônica integrado ao ensino medio</h5> <!-- no mobile -->
+				</a>
+			</div>
+			<div class="col s6 l3 cursos">
+				<a href="mecanica.html">
+					<img class="icon-curso" src="img/cursos/mecanica.svg">
+					<h5 class="hs-font-regular titulo-curso text-shadow-1-half hide-on-small-only">Mecânica</h5>
+					<h5 class="hs-font-regular hide-on-med-and-up titulo-curso-mob">Mecânica integrado ao ensino medio</h5> <!-- no mobile -->
+				</a>
+			</div>
+			<div class="col s6 l3 cursos">
+				<a href="eletrocnica.html">
+					<img class="icon-curso" src="img/cursos/eletro.svg">
+					<h5 class="hs-font-regular titulo-curso text-shadow-1-half hide-on-small-only">Eletrotécnica</h5>
+					<h5 class="hs-font-regular hide-on-med-and-up titulo-curso-mob">Eletrotécnica integrado ao ensino medio</h5> <!-- no mobile -->
+				</a>
+			</div>
+			<div class="col s6 l3 cursos">
+				<a href="ensino_media.html">
+					<img class="icon-curso" src="img/cursos/em.svg">
+					<h5 class="hs-font-regular titulo-curso text-shadow-1-half hide-on-small-only">Ensino médio e Integrado</h5>
+					<h5 class="hs-font-regular hide-on-med-and-up titulo-curso-mob">Ensino médio e Integrado</h5> <!-- no mobile -->
+				</a>
+			</div>
+			<div class="col s6 offset-s3 l3 cursos">
+				<a href="#extensoes" class="modal-trigger modal-close">
+					<img class="icon-curso" src="img/cursos/extensoes.svg">
+					<h5 class="hs-font-regular titulo-curso text-shadow-1-half hide-on-small-only">Extensões</h5>
+					<h5 class="hs-font-regular hide-on-med-and-up titulo-curso-mob">Extensões</h5> <!-- no mobile -->
+				</a>
+			</div>
+
+
+			<!-- Modal Structure -->
+			<div id="extensoes" class="modal">
+				<div class="modal-content row">
+					<h4 class="hs-font-regular">Cursos das Extensões</h4>
+					<div class="col s6 l4 cursos">
+						<a href="adm.html">
+							<img class="icon-curso" src="img/cursos/adm.svg">
+							<h5 class="hs-font-regular titulo-curso text-shadow-1-half hide-on-small-only">Administração</h5>
+							<h5 class="hs-font-regular hide-on-med-and-up titulo-curso-mob">Administração</h5> <!-- no mobile -->
+						</a>
+					</div>
+					<div class="col s6 l4 cursos">
+						<a href="mecatronica.html">
+							<img class="icon-curso" src="img/cursos/mecatronica.svg">
+							<h5 class="hs-font-regular titulo-curso text-shadow-1-half hide-on-small-only">Mecatrônica</h5>
+							<h5 class="hs-font-regular hide-on-med-and-up titulo-curso-mob">Mecatrônica</h5> <!-- no mobile -->
+						</a>
+					</div>
+					<div class="col s6 l3 cursos">
+						<a href="mecanica.html">
+							<img class="icon-curso" src="img/cursos/mecanica.svg">
+							<h5 class="hs-font-regular titulo-curso text-shadow-1-half hide-on-small-only">Mecânica</h5>
+							<h5 class="hs-font-regular hide-on-med-and-up titulo-curso-mob">Mecânica</h5> <!-- no mobile -->
+						</a>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<div class="modal-close"><i class="material-icons">close</i></div>
+				</div>
+			</div>
+					
+		</article>
+
+		<!-- fim CURSOS -->
+
+		<br>
+
+		<!-- REDES SOCIAIS -->
+
+		<section class="container center row">
+			<h3 class="hs-font-regular center">Redes Sociais</h3>
+			<div class="divider"></div>
+				<div class="col s6 rs"> <!-- FACEBOOK -->
+					<a href="#">
+						<img class="logo-rs" src="img/redes_sociais/facebook.svg"></img>
+						<h5 class="titulo-rs hs-font-regular text-shadow-1-half">FACEBOOK</h5>
+					</a>
+				</div>
+				<div class="col s6 rs"> <!-- INSTAGRAM -->
+					<a href="#">
+						<img class="logo-rs" src="img/redes_sociais/instagram2.svg"></img>
+						<h5 class="titulo-rs hs-font-regular text-shadow-1-half">INSTAGRAM</h5>
+					</a>
+				</div>
+				<div class="col s4 rs"> <!-- YOUTUBE -->
+					<a href="#">
+						<img class="logo-rs" src="img/redes_sociais/youtube.svg"></img>
+						<h5 class="titulo-rs hs-font-regular text-shadow-1-half">YOUTUBE</h5>
+					</a>
+				</div>
+				<div class="col s4 rs"> <!-- TWITTER -->
+					<a href="#">
+						<img class="logo-rs" src="img/redes_sociais/twitter.svg"></img>
+						<h5 class="titulo-rs hs-font-regular text-shadow-1-half">TWITTER</h5>
+					</a>
+				</div>
+				<div class="col s4 rs"> <!-- G+ -->
+					<a href="#">
+						<img class="logo-rs" src="img/redes_sociais/google-plus.svg"></img>
+						<h5 class="titulo-rs hs-font-regular text-shadow-1-half">GOOGLE +</h5>
+					</a>
+				</div>
+		</section>
+
+		<!-- fim REDES SOCIAIS -->
+
+		<!-- FOOTER -->
+		<footer class="page-footer indigo darken-3">
+          <div class="container">
+            <div class="row">
+            	<div class="col l4 s6">
+            		<h5 class="grey-text text-lighten-4">Cursos</h5>
+					<ul>
+						<li><a class="grey-text text-lighten-3" href="informatica.html">Informatica</a></li>
+						<li><a class="grey-text text-lighten-3" href="adm.html">Administração</a></li>
+						<li><a class="grey-text text-lighten-3" href="mecatronica.html">Mecatronica</a></li>
+						<li><a class="grey-text text-lighten-3" href="mecanica.html">Mecanica</a></li>
+						<li><a class="grey-text text-lighten-3" href="eletrotecnica.html">Eletrotécnia</a></li>
+						<li><a class="grey-text text-lighten-3" href="logistica.html">Logistica</a></li>
+						<li><a class="grey-text text-lighten-3" href="ensino_medio.html">Ensino Médio</a></li>
+					</ul>
+				</div>
+				<div class="col l4 s6">
+            		<h5 class="grey-text text-lighten-4">LINKS</h5>
+					<ul>
+						<li><a class="grey-text text-lighten-3" href="info.html">LINK</a></li>
+						<li><a class="grey-text text-lighten-3" href="adm.html">LINK</a></li>
+						<li><a class="grey-text text-lighten-3" href="mecatronica.html">LINK</a></li>
+					</ul>
+					
+					<h5 class="grey-text text-lighten-4">LINKS 2</h5>
+					<ul>
+						<li><a class="grey-text text-lighten-3" href="info.html">LINK</a></li>
+						<li><a class="grey-text text-lighten-3" href="adm.html">LINK</a></li>
+						<li><a class="grey-text text-lighten-3" href="mecatronica.html">LINK</a></li>
+					</ul>
+				</div>
+				<div class="col l4 s12">
+					<h5 class="grey-text text-lighten-4">Contato</h5>
+						<p class="grey-text text-lighten-3">
+							(11) 3834-4111 
+							</br> (11) 3834-4780
+							</br> secretaria@basilides.com.br 
+							<blockquote><a class="grey-text text-lighten-3" href="professores.html"> Email dos Professores</a></blockquote>
+							</br>
+						</p>
+					<h5 class="grey-text text-lighten-4">Endereço</h5>
+						<p class="grey-text text-lighten-3">
+							Etec Prof. Basílides de Godoy R. Guaipá, 678<br>
+							Vila Leopoldina CEP 05089-000 - São Paulo/SP
+							<div class="btn yellow accent-4"><a class="grey-text text-darken-3" target="_blank" href="https://www.google.com/maps?ll=-23.520925,-46.727858&z=14&t=m&hl=pt-BR&gl=BR&mapclient=embed&cid=7429975275640001326"><i class="material-icons right">map</i>Ver mapa</a></div>
+						</p>
+				</div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2016 Basilides de Godoy 
+            <a href="#dev-modal" data-target="dev-modal" class="modal-trigger modal-close grey-text text-lighten-4 right">Desenvolvido por 
+				<span class="yellow-text text-accent-4"> Guilherme Luigi</span> & <span class="yellow-text text-accent-4">Leandro</span>
+            </a>
+            </div>
+          </div>
+        </footer>
+		<!--fim FOOTER -->
+
+		<div id="dev-modal" class="modal"> <!-- modal dos devs -->
+			<div class="modal-content center">
+				<h2 class="hs-font-regular grey-text text-darken-4 ">DEVELOPERS</h2>
+				<div class="divider grey darken-3"></div>
+
+				<br>
+
+				<div class="row">
+					<div class="col s12 m6 center">
+						<h3 class="hs-font-regular indigo-text text-darken-2">Guilherme Luigi</h3>
+						<h6 class="hs-font-regular">Front-end/UX Designer</h6>
+						<img class="circle responsive-img z-depth-1-half" src="img/devs/luigi.png"/>
+						<div class="center"> <!-- contato devs -->
+							<a href="https://github.com/guiluigi"> 
+								<img class="logo-rs-devs" src="img/redes_sociais/github.svg"/>
+							</a>
+							<a href="https://www.linkedin.com/in/guiluigi/"> 
+								<img class="logo-rs-devs" src="img/redes_sociais/linkedin.svg"/>
+							</a>
+						</div>
+					</div>
+					<div class="col s12 m6 center">
+						<h3 class="hs-font-regular indigo-text text-darken-2">Leandro Souza</h3>
+						<h6 class="hs-font-regular">Back-end</h6>
+						<img class="circle responsive-img z-depth-1-half" src="img/devs/leandro.jpg"/>
+						<div class="center"> <!-- contato devs -->
+							<a href="http://Github.com/leandrosl"> 
+								<img class="logo-rs-devs" src="img/redes_sociais/github.svg"/>
+							</a>
+							<a href="https://www.linkedin.com/in/leandro-souza-37991852/"> 
+								<img class="logo-rs-devs" src="img/redes_sociais/linkedin.svg"/>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer center">
+      			<a href="#!" class=" modal-action modal-close"><i class="material-icons grey-text">close</i></a>
+    		</div>
+		</div>
+		
+		<!-- chamada de JS e JQuery -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+		<script type="text/javascript" src="js/materialize.js"></script>
+		<script type="text/javascript" src="js/init.js"></script>
+		<!-- <script type="text/javascript" src="js/script.min.js"></script> -->
+	</body>
+	
+</html>
